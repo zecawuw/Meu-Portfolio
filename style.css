@@ -1,0 +1,528 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #292328;
+    height: 100vh;
+}
+
+#back{
+    padding: 10px;
+    color: white;
+    background-color: #681a7b;
+    margin: 10px;
+    border-radius: 50px;
+    display: inline-block;
+    position: fixed;
+    cursor: pointer;
+}
+
+/* index.htlm */
+
+#center{
+    background-image: url("https://scontent-gru1-1.xx.fbcdn.net/v/t39.30808-6/p526x296/252208061_3709842102573773_4291410848320875450_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeF03UwznG-izy_uLThfHb2zuCSNqmHCY9i4JI2qYcJj2NXFdzh7D3Kpsna6jJL8oihMdpMLomOf_OJEQFyY9TOr&_nc_ohc=_Wu6Fx81p4UAX-E-Hjh&_nc_ht=scontent-gru1-1.xx&oh=4538982591bf200fc26fba8a3bb6e239&oe=6185CF85");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	float: left;
+    border: 2px solid #681a7b;
+    margin: auto;
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button1{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 80%;
+    background-color: #681a7b;
+    text-align: center;
+    padding: 25px;
+    border-radius: 40px;
+}
+
+.button2{
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 80%;
+    background-color: #681a7b;
+    text-align: center;
+    padding: 25px;
+    border-radius: 40px;
+}
+
+.button3{
+    position: absolute;
+    top: 79%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 80%;
+    background-color: #681a7b;
+    text-align: center;
+    padding: 25px;
+    border-radius: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+/* sobre mim */
+
+#sobre-mim{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 90%;
+    text-align: justify;
+}
+
+/* meus projetos */
+
+.button1-projetos{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 80%;
+    background-color: #681a7b;
+    text-align: center;
+    padding: 25px;
+    border-radius: 40px;
+}
+
+.button2-projetos{
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 80%;
+    background-color: #681a7b;
+    text-align: center;
+    padding: 25px;
+    border-radius: 40px;
+}
+
+.button3-projetos{
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 80%;
+    background-color: #681a7b;
+    text-align: center;
+    padding: 25px;
+    border-radius: 40px;
+}
+
+.button4-projetos{
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 80%;
+    background-color: #681a7b;
+    text-align: center;
+    padding: 25px;
+    border-radius: 40px;
+}
+
+.button5-projetos{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 80%;
+    background-color: #681a7b;
+    text-align: center;
+    padding: 25px;
+    border-radius: 40px;
+}
+
+.button6-projetos{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 80%;
+    background-color: #681a7b;
+    text-align: center;
+    padding: 25px;
+    border-radius: 40px;
+}
+
+.button7-projetos{
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 80%;
+    background-color: #681a7b;
+    text-align: center;
+    padding: 25px;
+    border-radius: 40px;
+}
+
+/* diploma */
+
+#certificado-aplicativos1{
+    background-image: url("https://scontent-gru2-1.xx.fbcdn.net/v/t39.30808-6/s720x720/251695731_3709919352566048_1455031696789577849_n.jpg?_nc_cat=107&_nc_rgb565=1&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeFLsotHRGGc9XHCEI9SFCiEAXN52BdQpxYBc3nYF1CnFhJ0atN09TUDSz-5h0JtBgfjKDo-isC2EiIA6pvJr0mF&_nc_ohc=XOJxhuLc35EAX9u-UAz&_nc_ht=scontent-gru2-1.xx&oh=35cba1e6388dd7acc152905592ed93de&oe=61844B51");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#certificado1 h2{
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    font-size: 19px;
+}
+
+#ampliar-foto1{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: none;
+    z-index: 998;
+}
+
+#popup1{
+    background-image: url("https://scontent-gru2-1.xx.fbcdn.net/v/t39.30808-6/s720x720/251695731_3709919352566048_1455031696789577849_n.jpg?_nc_cat=107&_nc_rgb565=1&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeFLsotHRGGc9XHCEI9SFCiEAXN52BdQpxYBc3nYF1CnFhJ0atN09TUDSz-5h0JtBgfjKDo-isC2EiIA6pvJr0mF&_nc_ohc=XOJxhuLc35EAX9u-UAz&_nc_ht=scontent-gru2-1.xx&oh=35cba1e6388dd7acc152905592ed93de&oe=61844B51");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 40%;
+    background-color: rgb(83, 61, 83);
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 999;
+}
+
+#sair1{
+    float: right;
+    padding: 10px;
+    display: none;
+    color: white;
+    position: fixed;
+    top: 22%;
+    left: 91%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+
+#certificado2 h2{
+    color: white;
+    position: absolute;
+    top: 74%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    font-size: 19px;
+}
+
+#certificado-aplicativos2{
+    background-color: royalblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#ampliar-foto2{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: none;
+    z-index: 998;
+}
+
+#popup2{
+    background-image: url("");
+    background-color: royalblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 40%;
+    /* background-color: rgb(83, 61, 83); */
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 999;
+}
+
+#sair2{
+    float: right;
+    padding: 10px;
+    display: none;
+    color: white;
+    position: fixed;
+    top: 22%;
+    left: 91%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+
+/* contatos */
+
+#contatos{
+    /* background-color: royalblue; */
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    top: 96%;
+    left: 87%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#github{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/733/733553.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+}
+
+#linkedin{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/179/179330.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+}
+
+/* media screen */
+
+@media screen and (min-width: 1200px){
+
+    *{
+        overflow: auto;
+    }
+    
+    #certificado-aplicativos1{
+        background-size: 100% 100%;
+        /* width: 855px;
+        height: 600px; */
+        width: 40%;
+        height: 50%;
+        margin-top: 150px;
+    }
+    
+    #certificado1 h2{
+        top: 60%;
+        left: 50%;
+        width: 80%;
+        height: 5%;
+        font-size: 40px;
+    }
+
+    #popup1{
+    background-size: 100% 100%;
+    width: 55%;
+    height: 70%;
+    top: 45%;
+    left: 50%;
+    }
+
+    #sair1{
+        top: 8%;
+        left: 76%;
+        font-size: 30px;
+    }
+
+    #popup2{
+        background-size: 100% 100%;
+        width: 55%;
+        height: 70%;
+        top: 45%;
+        left: 50%;
+    }
+    
+    #sair2{
+        top: 8%;
+        left: 76%;
+        font-size: 30px;
+    }
+
+    #certificado-aplicativos2{
+        background-size: 100% 100%;
+        /* width: 855px;
+        height: 600px; */
+        width: 40%;
+        height: 50%;
+        margin-top: 500px;
+    }
+
+    #certificado2 h2{
+        top: 126%;
+        left: 50%;
+        width: 80%;
+        height: 5%;
+        font-size: 40px;
+    }
+
+    #back{
+        margin: 30px;
+        padding: 20px;
+        font-size: 30px;
+    }
+
+    #sobre-mim h3{
+        font-size: 50px;
+    }
+
+    #sobre-mim p{
+        font-size: 30px;
+    }
+
+    #sobre-mim ul{
+        font-size: 30px;
+    }
+
+    .button1{
+        width: 50%;
+        font-size: 40px;
+    }
+
+    .button2{
+        width: 50%;
+        font-size: 40px;
+    }
+
+    .button3{
+        width: 50%;
+        font-size: 40px;
+    }
+
+    .button1-projetos{
+        width: 50%;
+        font-size: 40px;
+    }
+
+    .button2-projetos{
+        width: 50%;
+        font-size: 40px;
+    }
+
+    .button3-projetos{
+        width: 50%;
+        font-size: 40px;
+    }
+
+    .button4-projetos{
+        width: 50%;
+        font-size: 40px;
+    }
+
+    .button5-projetos{
+        width: 50%;
+        font-size: 40px;
+    }
+
+    .button6-projetos{
+        width: 50%;
+        font-size: 40px;
+    }
+
+    .button7-projetos{
+        width: 50%;
+        font-size: 40px;
+    }
+
+    #center{
+        background-image: url("https://scontent-gru1-1.xx.fbcdn.net/v/t39.30808-6/p526x296/252208061_3709842102573773_4291410848320875450_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeF03UwznG-izy_uLThfHb2zuCSNqmHCY9i4JI2qYcJj2NXFdzh7D3Kpsna6jJL8oihMdpMLomOf_OJEQFyY9TOr&_nc_ohc=_Wu6Fx81p4UAX-E-Hjh&_nc_ht=scontent-gru1-1.xx&oh=4538982591bf200fc26fba8a3bb6e239&oe=6185CF85");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 450px;
+        height: 450px;
+        border-radius: 50%;
+        float: left;
+        border: 2px solid #681a7b;
+        margin: auto;
+        position: absolute;
+        top: 23%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #contatos{
+        width: 130px;
+    }
+
+    #github{
+        background-image: url("https://cdn-icons-png.flaticon.com/512/733/733553.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+    }
+    
+    #linkedin{
+        background-image: url("https://cdn-icons-png.flaticon.com/512/179/179330.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+    }
+}
