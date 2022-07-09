@@ -25,7 +25,7 @@ body{
 /* index.htlm */
 
 #center{
-    background-image: url("https://scontent-gru1-1.xx.fbcdn.net/v/t39.30808-6/p526x296/252208061_3709842102573773_4291410848320875450_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeF03UwznG-izy_uLThfHb2zuCSNqmHCY9i4JI2qYcJj2NXFdzh7D3Kpsna6jJL8oihMdpMLomOf_OJEQFyY9TOr&_nc_ohc=_Wu6Fx81p4UAX-E-Hjh&_nc_ht=scontent-gru1-1.xx&oh=4538982591bf200fc26fba8a3bb6e239&oe=6185CF85");
+    background-image: url('foto-perfil.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -39,6 +39,7 @@ body{
     top: 23%;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin-top: -63px;
 }
 
 .button1{
@@ -96,6 +97,15 @@ a{
     color: white;
     width: 90%;
     text-align: justify;
+    margin-top: 8px;
+}
+
+.tamanho-font-titulo{
+    font-size: 20px !important;
+}
+
+.tamanho-font-texto{
+    font-size: 18px !important;
 }
 
 /* meus projetos */
@@ -194,7 +204,7 @@ a{
 /* diploma */
 
 #certificado-aplicativos1{
-    background-image: url("https://scontent-gru2-1.xx.fbcdn.net/v/t39.30808-6/s720x720/251695731_3709919352566048_1455031696789577849_n.jpg?_nc_cat=107&_nc_rgb565=1&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeFLsotHRGGc9XHCEI9SFCiEAXN52BdQpxYBc3nYF1CnFhJ0atN09TUDSz-5h0JtBgfjKDo-isC2EiIA6pvJr0mF&_nc_ohc=XOJxhuLc35EAX9u-UAz&_nc_ht=scontent-gru2-1.xx&oh=35cba1e6388dd7acc152905592ed93de&oe=61844B51");
+    background-image: url('certificado-1.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -227,7 +237,7 @@ a{
 }
 
 #popup1{
-    background-image: url("https://scontent-gru2-1.xx.fbcdn.net/v/t39.30808-6/s720x720/251695731_3709919352566048_1455031696789577849_n.jpg?_nc_cat=107&_nc_rgb565=1&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeFLsotHRGGc9XHCEI9SFCiEAXN52BdQpxYBc3nYF1CnFhJ0atN09TUDSz-5h0JtBgfjKDo-isC2EiIA6pvJr0mF&_nc_ohc=XOJxhuLc35EAX9u-UAz&_nc_ht=scontent-gru2-1.xx&oh=35cba1e6388dd7acc152905592ed93de&oe=61844B51");
+    background-image: url('certificado-1.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -266,7 +276,8 @@ a{
 }
 
 #certificado-aplicativos2{
-    background-color: royalblue;
+    /* background-color: royalblue; */
+    /* background-image: url('certificado-1.png'); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -372,6 +383,7 @@ a{
         width: 80%;
         height: 5%;
         font-size: 40px;
+        margin-top: 40px;
     }
 
     #popup1{
@@ -492,16 +504,16 @@ a{
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        width: 450px;
-        height: 450px;
+        width: 350px;
+        height: 350px;
         border-radius: 50%;
-        float: left;
         border: 2px solid #681a7b;
         margin: auto;
         position: absolute;
         top: 23%;
         left: 50%;
         transform: translate(-50%, -50%);
+        margin-top: -10px;
     }
 
     #contatos{
