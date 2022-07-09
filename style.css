@@ -516,6 +516,10 @@ a{
         margin-top: -10px;
     }
 
+    .tamanho-font-texto {
+        font-size: 16px !important;
+    }
+	
     #contatos{
         width: 130px;
     }
