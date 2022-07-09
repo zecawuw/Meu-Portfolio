@@ -101,11 +101,11 @@ a{
 }
 
 .tamanho-font-titulo{
-    font-size: 20px !important;
+    font-size: 18px !important;
 }
 
 .tamanho-font-texto{
-    font-size: 18px !important;
+    font-size: 16px !important;
 }
 
 /* meus projetos */
@@ -514,10 +514,6 @@ a{
         left: 50%;
         transform: translate(-50%, -50%);
         margin-top: -10px;
-    }
-
-    .tamanho-font-texto {
-        font-size: 16px !important;
     }
 	
     #contatos{
