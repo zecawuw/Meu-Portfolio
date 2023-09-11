@@ -77,3 +77,9 @@ function sair2(){
     }
 
 };
+
+//back
+
+function back(){
+    let voltar = window.history.back();
+}

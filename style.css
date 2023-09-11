@@ -20,7 +20,7 @@ body{
     display: inline-block;
     position: fixed;
     cursor: pointer;
-    
+    border: 0px;
 }
 
 /* index.htlm */
