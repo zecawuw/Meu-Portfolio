@@ -20,11 +20,19 @@ body{
     display: inline-block;
     position: fixed;
     cursor: pointer;
+    
 }
 
 /* index.htlm */
 
-#center{
+.container{
+    margin-top: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.img{
     background-image: url('foto-perfil.jpg');
     background-position: center;
     background-size: cover;
@@ -32,33 +40,27 @@ body{
     width: 250px;
 	height: 250px;
 	border-radius: 50%;
-	float: left;
     border: 2px solid #681a7b;
-    margin: auto;
-    position: absolute;
-    top: 23%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: -63px;
+    margin: 0 auto;
 }
 
-.button1{
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    width: 80%;
-    background-color: #681a7b;
+.botao{
+    margin-top: 50px;
     text-align: center;
-    padding: 25px;
-    border-radius: 40px;
+}
+
+.button{
+    color: white;
+    background-color: #681a7b;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 100px;
 }
 
 .button2{
-    position: absolute;
+    /*position: absolute;
     top: 67%;
-    left: 50%;
+    left: 50%;*/
     transform: translate(-50%, -50%);
     color: white;
     width: 80%;
@@ -66,12 +68,13 @@ body{
     text-align: center;
     padding: 25px;
     border-radius: 40px;
+    margin: 30px;
 }
 
 .button3{
-    position: absolute;
+    /*position: absolute;
     top: 79%;
-    left: 50%;
+    left: 50%;*/
     transform: translate(-50%, -50%);
     color: white;
     width: 80%;
@@ -79,6 +82,7 @@ body{
     text-align: center;
     padding: 25px;
     border-radius: 40px;
+    margin: 30px;
 }
 
 a{
@@ -90,6 +94,7 @@ a{
 /* sobre mim */
 
 #sobre-mim{
+
     position: absolute;
     top: 65%;
     left: 50%;
@@ -97,7 +102,7 @@ a{
     color: white;
     width: 90%;
     text-align: justify;
-    margin-top: 8px;
+    margin-top: 20px;
 }
 
 .tamanho-font-titulo{
@@ -241,8 +246,8 @@ a{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 90%;
-    height: 40%;
+    width: 700px;
+    height: 500px;
     background-color: rgb(83, 61, 83);
     position: fixed;
     top: 45%;
@@ -276,8 +281,8 @@ a{
 }
 
 #certificado-aplicativos2{
-    /* background-color: royalblue; */
-    /* background-image: url('certificado-1.png'); */
+    background-color: royalblue;
+    background-image: url('certificado-2.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -299,14 +304,14 @@ a{
 }
 
 #popup2{
-    background-image: url("");
+    background-image: url('certificado-2.jpg');
     background-color: royalblue;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 90%;
-    height: 40%;
-    /* background-color: rgb(83, 61, 83); */
+    width: 700px;
+    height: 500px;
+    background-color: rgb(83, 61, 83);
     position: fixed;
     top: 45%;
     left: 50%;
@@ -361,7 +366,7 @@ a{
 }
 
 /* media screen */
-
+/*
 @media screen and (min-width: 1200px){
 
     *{
@@ -371,7 +376,7 @@ a{
     #certificado-aplicativos1{
         background-size: 100% 100%;
         /* width: 855px;
-        height: 600px; */
+        height: 600px; 
         width: 40%;
         height: 50%;
         margin-top: 150px;
@@ -417,7 +422,7 @@ a{
     #certificado-aplicativos2{
         background-size: 100% 100%;
         /* width: 855px;
-        height: 600px; */
+        height: 600px; 
         width: 40%;
         height: 50%;
         margin-top: 500px;
@@ -538,3 +543,4 @@ a{
         height: 50px;
     }
 }
+*/
