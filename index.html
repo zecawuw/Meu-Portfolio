@@ -1,44 +1,28 @@
 <!DOCTYPE html>
-<html lang="bt-br">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Portfólio</title>
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/login.js"></script>
+    <title>StartRH</title>
 </head>
 <body>
+    <section class="img-login">
+        <img src="img/login.jpg" alt="" width="100%" height="100%">
+        <div></div>
+    </section>
     
-    <section class="container">
-        <div class="perfil">
-            <div class="img">
-
-            </div>
-
-            <div class="botao">
-                <div class="button">
-                    <a href="sobreMim.html">Sobre Mim</a>
-                </div>
-                <br>
-
-                <div class="button">
-                    <a href="meusProjetos.html">Meus Projetos</a>
-                </div>
-                <br>
-
-                <div class="button">
-                    <a href="diploma.html">Certificados</a>
-                </div>
-            </div>
+    <section class="login">
+        <img src="img/logo.png" alt="" width="170px" height="170px">
+        <div class="entrar">
+            <h3 class="login-input">Usuário</h3>
+            <input type="text" name="usuario" id="usuario">
+            <h3>Senha</h3>
+            <input type="password" name="senha" id="senha">
+            <input onclick="logar()" return false" id="button" type="button" value="Entrar">
         </div>
-    </section><!--container-->
-
-
-    <section id="contatos">
-        <a href="https://bityli.com/lTtzay"><div id="linkedin"></div></a>
-        <a href="https://github.com/zecawuw"><div id="github"></div></a>
-    </section><!--contatos-->
-
-    <script src="./script.js"></script>
+    </section>
 </body>
 </html>

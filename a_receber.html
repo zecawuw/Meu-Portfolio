@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/a_receber.css">
+    <script src="js/pages.js"></script>
+    <title>StartRH</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img onclick="home()" src="img/logo.png" alt="">
+        </div>
+        <div>
+            <h3>Luana Tibiriça Nascimento</h3>
+            <img class="luana" src="img/luana.jpg" alt="" style="width: 80px; 
+            height: 80px; margin-left: 50px; border-radius: 50%; margin-top: 10px;">
+        </div>
+    </header>
+
+    <section class="section">
+        <section class="button">
+            <input onclick="AReceber()" type="button" value="A Receber">
+            <input onclick="historicoHolerite()" type="button" value="Histórico Holerite">
+            <input onclick="historicoSalario()" type="button" value="Histórico Salarial">
+            <input onclick="pontoEletronico()" type="button" value="Ponto Eletrônico">
+            <input onclick="ferias()" type="button" value="Férias">
+            <input onclick="documentos()" type="button" value="Documentos">
+        </section>
+
+        <section class="style">
+            
+            <h1 id="mes-receber">Maio</h1>
+
+            <div class="receber">
+                <h3 class="h3_1">Horas previstas:</h3>
+                <h3 class="h3_2" id="previstas"></h3>
+            </div>
+            <div class="receber">
+                <h3 class="h3_1">Horas trabalhadas:</h3>
+                <h3 class="h3_2" id="trabalhadas"></h3>
+            </div>
+            <div class="receber"> 
+                <h3 class="h3_1">Salário bruto:</h3>
+                <h3 class="h3_2" id="bruto"></h3>
+            </div>
+            <div class="receber">
+                <h3 class="h3_1">Desconto INSS:</h3>
+                <h3 class="h3_2" id="inss"></h3>
+            </div>
+            <div class="receber">
+                <h3 class="h3_1">Desconto IR:</h3>
+                <h3 class="h3_2" id="ir"></h3>
+            </div>
+            <div class="receber">
+                <h3 class="h3_1">Total desconto:</h3>
+                <h3 class="h3_2" id="desconto"></h3>
+            </div>
+            <div class="receber">
+                <h3 class="h3_1">Salário líquido:</h3>
+                <h3 class="h3_2" id="liquido"></h3>
+            </div>
+            <script src="js/a_receber.js"></script>
+        </section>
+    </section>
+
+</body>
+</html>

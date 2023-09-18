@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/historico_holerite.css">
+    <script src="js/pages.js"></script>
+    <title>StartRH</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img onclick="home()" src="img/logo.png" alt="">
+        </div>
+        <div>
+            <h3>Luana Tibiriça Nascimento</h3>
+            <img class="luana" src="img/luana.jpg" alt="" style="width: 80px; 
+            height: 80px; margin-left: 50px; border-radius: 50%; margin-top: 10px;">
+        </div>
+    </header>
+
+    <section class="section">
+        <section class="button">
+            <input onclick="AReceber()" type="button" value="A Receber">
+            <input onclick="historicoHolerite()" type="button" value="Histórico Holerite">
+            <input onclick="historicoSalario()" type="button" value="Histórico Salarial">
+            <input onclick="pontoEletronico()" type="button" value="Ponto Eletrônico">
+            <input onclick="ferias()" type="button" value="Férias">
+            <input onclick="documentos()" type="button" value="Documentos">
+        </section>
+
+        
+
+        <section class="style">
+            <div onclick="holeriteJaneiro()" class="receber">
+                <h3  class="h3_1">Janeiro</h3>
+                <h3 class="h3_2" id="Janeiro"></h3>
+            </div>
+            <div class="receber">
+                <h3 class="h3_1">Fevereiro</h3>
+                <h3 class="h3_2" id="Fevereiro"></h3>
+            </div>
+            <div class="receber">
+                <h3 class="h3_1">Março</h3>
+                <h3 class="h3_2" id="Março"></h3>
+            </div>
+            <div class="receber">
+                <h3 class="h3_1">Abril</h3>
+                <h3 class="h3_2" id="Abril"></h3>
+            </div>
+            <div class="receber">
+                <h3 class="h3_1">Maio</h3>
+                <h3 class="h3_2" id="Maio"></h3>
+            </div>
+            <div class="receber">
+                <h3 class="h3_1">Junho</h3>
+                <h3 class="h3_2" id="Junho"></h3>
+            </div>
+            <div class="receber">
+                <h3 class="h3_1">Julho</h3>
+                <h3 class="h3_2" id="Julho"></h3>
+            </div>
+            <div class="receber">
+                <h3 class="h3_1">Agosto</h3>
+                <h3 class="h3_2" id="Agosto"></h3>
+            </div>
+            <div class="receber">
+                <h3 class="h3_1">Setembro</h3>
+                <h3 class="h3_2" id="Setembro"></h3>
+            </div>
+            <div class="receber">
+                <h3 class="h3_1">Outubro</h3>
+                <h3 class="h3_2" id="Outubro"></h3>
+            </div>
+            
+            <div class="receber">
+                <h3 class="h3_1">Novembro</h3>
+                <h3 class="h3_2" id="Novembro"></h3>
+            </div>
+            <div class="receber">
+                <h3 class="h3_1">Desembro</h3>
+                <h3 class="h3_2" id="Desembro"></h3>
+            </div>
+            <script src="js/historico_holerite.js"></script>
+
+
+        </section>
+        
+        <div onclick="sair()" id="modal_holerite"></div>
+    </section>
+    
+    
+
+    <div id="modal" class="modal">
+        <h1 id="mes-receber">Maio</h1>
+        <h1 onclick="sair()" id="sair">X</h1>
+            
+            <div class="receber1">
+                <h3 class="h3_1">Horas previstas:</h3>
+                <h3 class="h3_2" id="previstas"></h3>
+            </div>
+            <div class="receber1">
+                <h3 class="h3_1">Horas trabalhadas:</h3>
+                <h3 class="h3_2" id="trabalhadas"></h3>
+            </div>
+            <div class="receber1"> 
+                <h3 class="h3_1">Salário bruto:</h3>
+                <h3 class="h3_2" id="bruto"></h3>
+            </div>
+            <div class="receber1">
+                <h3 class="h3_1">Desconto INSS:</h3>
+                <h3 class="h3_2" id="inss"></h3>
+            </div>
+            <div class="receber1">
+                <h3 class="h3_1">Desconto IR:</h3>
+                <h3 class="h3_2" id="ir"></h3>
+            </div>
+            <div class="receber1">
+                <h3 class="h3_1">Total desconto:</h3>
+                <h3 class="h3_2" id="desconto"></h3>
+            </div>
+            <div class="receber1">
+                <h3 class="h3_1">Salário líquido:</h3>
+                <h3 class="h3_2" id="liquido"></h3>
+            </div>
+            <script src="js/a_receber.js"></script>
+    </div>
+
+</body>
+</html>
